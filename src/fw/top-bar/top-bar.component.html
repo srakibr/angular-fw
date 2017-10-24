@@ -12,6 +12,11 @@
   <span>BAJAN</span><span class="glyphicon glyphicon-chevron-down"></span>
 </div>
 
-<div *ngIf="frameworkConfigService.showUserControls">
+<!-- <div *ngIf="frameworkConfigService.showUserControls">
   <span>Sign In</span>
+</div> -->
+
+<div *ngIf="frameworkConfigService.showUserControls">
+  <span>Rakib</span>
+  <span class="sign-out" (click)="signOut()">Sign out</span>
 </div>

@@ -20,7 +20,7 @@ export class AppComponent {
         {imageFile:'assets/social-twitter-bw.png',alt:'Twitter',link:'twitter.com'}
       ],
       showLanguageSelector:true,
-      showUserControls:false,
+      showUserControls:true,
       showStatusBar:true,
       showStatusBarBreakPoint:800
     }
